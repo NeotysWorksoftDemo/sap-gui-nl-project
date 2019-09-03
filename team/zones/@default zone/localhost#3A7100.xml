@@ -1,0 +1,16 @@
+<lg-host hostname="localhost:7100" loadWeight="1" sapSupport="true"
+    standalone="false" supportWANEmulation="true"
+    uid="6ff00841-0d9a-4b09-9bb0-6cbe4d52d84b" version="7.0.0;build=20190712-20">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

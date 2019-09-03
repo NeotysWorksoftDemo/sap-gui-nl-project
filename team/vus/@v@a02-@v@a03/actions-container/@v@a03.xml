@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="VA03" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="64b3e3d5-94b1-4bd9-b448-30cd5126ee95" weightsEnabled="false">
+    <weighted-embedded-action uid="7e6fa759-55e6-4812-8105-73edcd48c745"/>
+    <weighted-embedded-action uid="0ddcce92-7a65-43aa-b9df-6d236d11f79d"/>
+    <weighted-embedded-action uid="335e7894-3db3-41a1-9cfb-97de62b95c89"/>
+    <weighted-embedded-action uid="eb0ca9f5-7fb6-456d-841e-0560776c312f"/>
+    <weighted-embedded-action uid="d0cca1d9-6e35-4766-b0cd-8854c64d372e"/>
+</basic-logical-action-container>

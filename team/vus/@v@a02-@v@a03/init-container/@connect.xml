@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Connect" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="01346e18-37b4-4c4a-a705-273eb56a3cf3" weightsEnabled="false">
+    <weighted-embedded-action uid="fc089bde-d766-4a50-991a-cbb3a564bec9"/>
+</basic-logical-action-container>

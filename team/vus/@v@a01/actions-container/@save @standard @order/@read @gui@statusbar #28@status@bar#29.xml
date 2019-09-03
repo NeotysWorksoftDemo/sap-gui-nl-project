@@ -1,0 +1,28 @@
+<custom-action actionType="SapRead" isHit="false"
+    name="Read GuiStatusbar (StatusBar)" uid="d048ada7-7e6c-4d7c-b554-04feb31ff086">
+    <description>This action reads the label of an SAP object and return the value in the response of the Action.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/sbar"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="sbar"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiStatusbar"/>
+    <responsePageFileDescription>recorded-responses/res_d048ada7-7e6c-4d7c-b554-04feb31ff086</responsePageFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple=" has been saved" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="Ext_OrderNo"
+        regExp="Standard Order (.*?) has been saved" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="Standard Order "
+        template="$1$" templateAdv="$1$"
+        uid="d5ce738c-025b-4026-9035-72d5b23c2a24" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+</custom-action>

@@ -1,0 +1,16 @@
+<custom-action actionType="SapRead" isHit="false"
+    name="Read GuiStatusbar (StatusBar)" uid="e2ad1c9e-7cd1-40e7-9165-0b006d864751">
+    <description>This action reads the label of an SAP object and return the value in the response of the Action.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/sbar"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="sbar"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiStatusbar"/>
+    <responsePageFileDescription>recorded-responses/res_e2ad1c9e-7cd1-40e7-9165-0b006d864751</responsePageFileDescription>
+</custom-action>

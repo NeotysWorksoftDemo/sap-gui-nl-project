@@ -1,0 +1,25 @@
+<custom-action actionType="SapClick" isHit="true"
+    name="Click GuiButton (Log off   (Shift+F3))" uid="a32b18e2-268c-432c-9639-d1cc2a7bfd9f">
+    <description>This action simulates a click action on an SAP GUI object.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- menuItem (optional): The id of the menu item.&#xd;
+- toolbarButton (optional): The id of the toolbar button.&#xd;
+- toolbarContextButton (optional): The id of the toolbar context button.&#xd;
+- contextButton (optional): The id of the context button.&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- nodeKey (optional): The node key of a tree.&#xd;
+- indexes (optional): The indexes separated by "/" to reference a tree path. Example: 0/1/1/2.&#xd;
+- itemName (optional): The item name of a tree.&#xd;
+- buttonPress (optional): If set to "true", a press button will be performed on a tree. Default value is "false".&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/tbar[0]/btn[15]"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="btn[15]"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiButton"/>
+    <responsePageFileDescription>recorded-responses/res_a32b18e2-268c-432c-9639-d1cc2a7bfd9f</responsePageFileDescription>
+</custom-action>

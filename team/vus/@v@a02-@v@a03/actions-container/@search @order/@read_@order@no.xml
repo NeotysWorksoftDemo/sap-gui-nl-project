@@ -1,0 +1,5 @@
+<variable-modifier-action definedMode="1"
+    dest-variable-name="SavedOrderNo" name="Read_OrderNo"
+    shared-variable-name="SQ_Order_No" sharedMode="4"
+    src-variable-name="" uid="ba119b2a-7d99-4ef1-b451-0c02d60de419"
+    variable-category="SHARED" variable-name=""/>

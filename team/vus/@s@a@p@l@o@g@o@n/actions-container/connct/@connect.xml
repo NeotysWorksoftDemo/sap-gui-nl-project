@@ -1,0 +1,10 @@
+<custom-action actionType="SapConnect" isHit="true" name="Connect" uid="1b36c499-b5c9-4278-a723-6dd1935f6209">
+    <description>This action opens a new SAP connection. The established connection is contextual to the User Path and will be used to perform all the other actions (Click, Press, etc.).
+
+Possible parameters are:&#xd;
+- connectionString (required): The connection parameters to the SAP GUI server. Default value is "/H/192.168.1.1/S3201".&#xd;
+- overrideLogonFolder (optional): The path to the SAP logon folder. Leave empty for autodetection or setting on Load Generator side.&#xd;
+- noGuiMode (optional): GUI mode disabled. During a "Check User Path" process, the GUI mode is always enabled. Default value is "true".</description>
+    <custom-action-parameter name="connectionString" type="TEXT" value="  /SUPPORTBIT_OFF=SAP_PERSONAS /SAP_CODEPAGE=1100  /FULLMENU  52.47.46.92 00 /3 /UPDOWNLOAD_CP=2"/>
+    <responsePageFileDescription>recorded-responses/res_1b36c499-b5c9-4278-a723-6dd1935f6209</responsePageFileDescription>
+</custom-action>

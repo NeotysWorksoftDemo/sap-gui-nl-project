@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Save Standard Order" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="14b31e91-773c-4f8b-baeb-a10d7783a5f4" weightsEnabled="false">
+    <weighted-embedded-action uid="b7ba9a38-0457-40fa-b622-2d5a8a4a1ab3"/>
+    <weighted-embedded-action uid="6ce00e67-452a-4077-8e8d-44f41accf430"/>
+    <weighted-embedded-action uid="d048ada7-7e6c-4d7c-b554-04feb31ff086"/>
+    <weighted-embedded-action uid="dbd41a02-af0e-46a9-a9b6-78b126894362"/>
+</basic-logical-action-container>

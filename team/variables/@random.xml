@@ -1,0 +1,1 @@
+<variable-random-number max-value="10" min-value="1" name="Random" order="1" policy="1" random-seed="false" range="2" uid="93eabeb5-849a-4b40-92b6-f1ab5bdd19e4" whenOutOfValues="CYCLE_VALUES"/>

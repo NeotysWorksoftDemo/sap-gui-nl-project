@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Create Sales Order" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="69babc43-1a61-4dfa-81fe-a968facfd4d0" weightsEnabled="false">
+    <weighted-embedded-action uid="ca40c511-4453-4ef6-98ac-26dc7425a9f9"/>
+    <weighted-embedded-action uid="ef7e7395-d542-4a7c-a10f-1499e6d7105c"/>
+    <weighted-embedded-action uid="7fe1985e-4485-4c8a-85d6-df85c8b90d60"/>
+    <weighted-embedded-action uid="e1c981b1-a14f-4e2e-960c-0070e34e17bd"/>
+    <weighted-embedded-action uid="2e11f433-922d-44a4-8092-bb0fa6a44cd5"/>
+    <weighted-embedded-action uid="d2010b42-ff5f-4cd6-a8bc-fb815521ac34"/>
+</basic-logical-action-container>

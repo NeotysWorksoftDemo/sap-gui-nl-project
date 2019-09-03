@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=SAP_GUI_NL_Project
+project.version=6.6
+project.original.version=6.2
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=6.5.0
+project.id=81f6cce5-090c-4ea2-a630-dc464cdace43
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/NeotysWorksoftDemo/sap-gui-nl-project.git

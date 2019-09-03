@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Change Order" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="0e980917-1c4f-441f-8a65-468caddb8268" weightsEnabled="false">
+    <weighted-embedded-action uid="f1797a9b-b791-4ca8-b266-c1a832dee928"/>
+    <weighted-embedded-action uid="ba49021d-b3b5-4676-9bfd-0e5a74e64d51"/>
+    <weighted-embedded-action uid="e95ae45f-c007-489c-915f-f9bbeba6ab6e"/>
+    <weighted-embedded-action uid="5d833aad-a290-450d-afbd-9933ff6c601d"/>
+    <weighted-embedded-action uid="d11eedd3-c3e2-4ce5-ad0a-6f9a907101e9"/>
+    <weighted-embedded-action uid="e2ad1c9e-7cd1-40e7-9165-0b006d864751"/>
+</basic-logical-action-container>

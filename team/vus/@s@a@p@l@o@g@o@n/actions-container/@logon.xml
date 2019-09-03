@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Logon" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="44ec3b5f-1deb-4587-9685-1b5e7276f8d8" weightsEnabled="false">
+    <weighted-embedded-action uid="77cb0608-ea27-4e36-ad40-7c957ce149e9"/>
+    <weighted-embedded-action uid="7929dd2a-0e4f-47c9-b69d-4098419bba08"/>
+    <weighted-embedded-action uid="36c6a7b6-e4bb-47f3-8c17-3f0d71d2cc8a"/>
+    <weighted-embedded-action uid="a8f4a32f-1a89-4e05-affe-b2fb97bd438e"/>
+    <weighted-embedded-action uid="19f6718e-c63f-419d-8db0-9ced8bca58f3"/>
+    <weighted-embedded-action uid="af1d34c6-f104-40f4-b25a-14ebcda5607b"/>
+</basic-logical-action-container>
